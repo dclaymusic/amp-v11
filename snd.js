@@ -159,11 +159,11 @@ function startSnd(page, selection)
     if(page == '13b') { currentAudioDuration = 12.5; } //horn or viola
     if(page == '14') { currentAudioDuration = 61; } //Movement 3
     if(page == '15') { //audio pre-Movement 4
-        currentAudioDuration = 1;
-        // if(melodyChoice == 1 && accompChoice == 1) { currentAudioDuration = 100; }
-        // if(melodyChoice == 1 && accompChoice == 2) { currentAudioDuration = 95; }
-        // if(melodyChoice == 2 && accompChoice == 1) { currentAudioDuration = 79; }
-        // if(melodyChoice == 2 && accompChoice == 2) { currentAudioDuration = 53; }
+        // currentAudioDuration = 1;
+        if(melodyChoice == 1 && accompChoice == 1) { currentAudioDuration = 100; }
+        if(melodyChoice == 1 && accompChoice == 2) { currentAudioDuration = 95; }
+        if(melodyChoice == 2 && accompChoice == 1) { currentAudioDuration = 79; }
+        if(melodyChoice == 2 && accompChoice == 2) { currentAudioDuration = 53; }
     }
     if(page == '16')
     {
